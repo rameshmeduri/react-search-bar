@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans';
+}
+
+.search-bar-container {
+  position: relative;
+}
+
+.query-textbox:focus,
+.search-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 10px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.showing {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #282828;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1c76d5;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #424242;
+}
+
+.card-link {
+  font-size: 14px;
+  line-height: 26px;
+  color: #686868;
+}
